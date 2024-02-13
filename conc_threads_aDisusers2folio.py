@@ -10,8 +10,6 @@ import folio_auth
 
 url = "https://folio-snapshot-okapi.dev.folio.org/authn/login"
 
-# prepare the json fake users
-
 folder_name = "json_aDis_users"
 os.makedirs(folder_name, exist_ok=True)
 users = aDis_users.generate_users()
